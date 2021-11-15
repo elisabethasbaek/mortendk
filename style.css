@@ -25,10 +25,7 @@ body{
   padding: 0.5rem 0;
   text-transform: uppercase;
   cursor: pointer;
-  border-top: 1px solid whitesmoke;
-  border-right: 1px solid whitesmoke;
-  border-left: 1px solid darkgrey;
-  border-bottom: 1px solid darkgrey;
+  border: 1px solid whitesmoke;
 }
 
 .campaignbanner__body,
