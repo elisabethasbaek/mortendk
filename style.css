@@ -1,48 +1,45 @@
 body{
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.campaignbanner{
-    display: grid;
-    max-width: 100%;
-    height: auto;
-    background-color: yellow;
-    color: darkslategray;
-    padding: 1rem;
-    margin-bottom: 2rem;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
-    transition: transform 1s ease-in-out, opacity 1.5s ease-out;
+.campaignbanner {
+  display: grid;
+  max-width: 100%;
+  height: auto;
+  background-color: yellow;
+  color: darkslategray;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+  transition: transform 1s ease-in-out, opacity 1.5s ease-out;
 }
 
-.campaignbanner__close{
-    justify-self: end;
-    width: 10rem;
-    border: none;
-    background-color: hotpink;
-    color: whitesmoke;
-    border-radius: 5px;
-    padding: 0.5rem 0;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-top: 1px solid whitesmoke;
-    border-right: 1px solid whitesmoke;
-    border-left: 1px solid darkgrey;
-    border-bottom: 1px solid darkgrey;
+.campaignbanner__close {
+  justify-self: end;
+  width: 10rem;
+  border: none;
+  background-color: hotpink;
+  color: whitesmoke;
+  border-radius: 5px;
+  padding: 0.5rem 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid whitesmoke;
 }
 
 .campaignbanner__body,
-.campaignbanner__countdown{
-    justify-self: center;
-    text-align: center;
+.campaignbanner__countdown {
+  justify-self: center;
+  text-align: center;
 }
 
-.campaignbanner__body{
-    font-size: 1.2rem;
+.campaignbanner__body {
+  font-size: 1.2rem;
 }
 
 .campaignbanner__countdown{
-    font-size: 0.8rem;
-    color: grey;
-    font-style: italic;
+  font-size: 0.8rem;
+  color: grey;
+  font-style: italic;
 }
